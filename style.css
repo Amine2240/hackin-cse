@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+
+.home-page__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+            background-color: #ff9f2c;
+            color: white;
+  }
+  
+  .home-page__nav__droite {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  
+  .home-page__nav li {
+    padding: 20px;
+    margin-right: 50px;
+  }
+  
+  .home-page__nav a {
+    color: #f5f5f5;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  .home-page__nav__logo {
+    color: red;
+    position: absolute;
+    left: 10px;
+  }
+
+.container{
+    margin-top: 10%;
+    
+}
+
+.work{
+    text-align: center;
+    color: yellow;
+    margin-bottom: 2%;
+}
+.serve{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.product{
+    text-align: center;
+    margin-bottom: 3%;
+    color: gray;
+}
+.photo{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+.photo1{
+    
+    object-fit: cover;
+        width: 150px;
+        height: auto;
+        max-width: 100%;
+        
+        padding: 10px;
+        display: block;
+        float: left;
+      
+}
+
+.photo2{
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    
+    padding: 10px;
+    display: block;
+    float: left;
+  
+
+}
+.photo3{
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    
+    padding: 10px;
+    display: block;
+    float: left;
+  
+}
+
+.footer{
+    background-color: orange;
+    display: flex;
+    padding: 3%;
+    
+    
+
+}
+.list{
+    justify-content: space-evenly;
+
+}
+.food{
+    padding-top: 0%;
+padding-left: 10%;
+
+}
+.comp{
+    padding-left: 10%;
+    
+    }
+.pol{
+    padding-left: 10%;
+    
+    }
+.get{
+    
+    padding-left: 10%;
+        
+        
+}
+.immg{
+    width: 50px;
+    margin-left: 0px;
+}
+   
