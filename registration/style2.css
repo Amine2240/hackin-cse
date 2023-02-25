@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+.name{
+    display: flex;
+    justify-content: left;
+}
+.name img{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.plat{
+    margin-left: 10px ;
+    margin-top: 10px;
+}
+.restau{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.kind{
+    margin-top: 30px;
+    margin-left: 30px;
+}

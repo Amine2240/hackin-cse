@@ -1,0 +1,132 @@
+* {
+    margin: 0px ; 
+    padding: 0px ;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/Frame\ 11.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: max(100vh, 570px);
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;  
+    width: 60vw;
+
+}
+ul li{
+    list-style: none; 
+    /* font-weight: 100; */
+    padding: 10px;
+
+}
+
+header{
+    /*background-color: #FFEEDE ;*/
+    /* background-color: rgba(	255	, 238, 222, 0.8); */
+    font-size: 1.2vw;
+    display: flex; 
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+header img {
+    width: 5vw;
+    object-fit: cover;
+    margin-left: 26px;
+    margin-top: 12px;
+}
+#main  {
+    padding-left: 30px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-evenly; 
+    width: 40vw;
+    flex: 1;
+    height: 20vh;
+}
+
+
+.text {
+    font-size: 3.5vw;
+}
+
+.button {
+
+    width: 11vw;
+    height: 6VH;
+    background-color: #FF922C;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: -100px;
+}
+.button:hover{
+    box-shadow: rgb(145, 144, 144) 2px 2px 2px 2px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#pic{
+    position: absolute;
+    inset: 0;
+    z-index: -10;
+}
+
+#pic img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60vw;
+}
+#snd {
+    z-index: 10;
+}
+#snd img{
+    width:4vw;
+    top : 10vh ; 
+    right: 10vw;    
+}
+
+.register {
+
+
+    background-color: #FF922C;
+    border-radius: 30px;
+    padding: 10px;
+    width: 15VH;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.register:hover {
+    cursor: pointer;
+}
+.menu{
+    display: none;
+}
+.line{
+    height: 3px;
+    width: 32px;
+    background-color: black;
+    margin-bottom: 5px;
+}
